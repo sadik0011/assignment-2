@@ -1,0 +1,255 @@
+body{
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+
+/*********************************
+********** header**************
+******************************** */
+
+.first-heading{
+    margin-left: 112px;
+    font-weight:bolder ;
+}    
+.section-1{
+    display: flex;
+    justify-content: center;
+}
+.starting-influence {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+.first-article{
+    width: 50%;
+    font-size:larger;
+}
+.first-article > p{
+    width: 80%;
+}
+.first-article  h1{
+    width: 50%;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+/*  added transform */
+
+.header-image:hover img{
+    transform: scale(1.2);
+    transition: transform 2s ease-in-out;
+}
+
+.first-article a{
+    background-color: rgba(226, 21, 100, 0.788) ;
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 4px 20px;
+    border-radius: 20px;
+}
+
+
+
+/* **************************
+**********  CONTAINER******
+**************************** */
+.flex-box-heading{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 120px;
+}
+.container{
+    padding: 30px;
+    border-radius: 10px;
+    border: opx solid;
+    background-color: rgba(220, 224, 224, 0.521);
+    
+}
+.container img{
+    width: 100%;
+}
+.section-2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.flexible-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap:50px;
+    grid-row-gap:50px;
+    width: 90%;
+    margin: 0 auto;
+   
+}
+/* star rating  */
+
+.flex-rating{
+    display: flex;
+}
+.rating-point{
+    margin-left: 20px;
+}
+
+.feild{
+    color: goldenrod;
+}
+
+ .second-anchor a{
+    margin-left: 980px ;
+    background-color: rgba(226, 21, 100, 0.788) ;
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 4px 20px;
+    border-radius: 20px;
+} 
+.second-anchor{
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(8, 8, 43);
+    border-top: 1px solid rgb(68, 66, 66);
+    color: rgb(253, 253, 253);
+    margin-top: 100px;
+}
+footer h1{
+    text-align: center;
+    font-size: 24px;
+    padding-top: 10px;
+}
+footer p{
+    text-align: center;
+    margin-top: 8px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.footer-icon i{
+    font-size: 20px;
+    margin-left: 10px;
+}
+/* **************************************
+**********third transform box ******** 
+*********************************************/
+
+/* --------_________-----------____________-----------______-------- */
+/* footer */
+
+/* ___________-----------------_______________-------------- */
+
+@media only screen and (max-width:688px){
+
+    .first-heading{
+        margin-right: 100px;
+    }
+    
+.starting-influence{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+    width: 100%;
+}
+.first-article{
+   margin-left: 50px;
+}
+.first-article a {
+    padding: 10px;
+}
+.header-image img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+/* ______________________________________ */
+.flexible-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 20px;
+    
+}
+.second-anchor a{
+   margin-left: 200px;
+}
+/* ---------------______--------_____-------____--------____------- */
+.tranformation-box {
+    width: 350px;
+    height: 600px;
+    margin-left: 20px;
+    
+}
+.box-text-alignment p{
+    width: 85% ;
+    padding-left: 30px;
+}
+.box-text-alignment h1{
+    margin-left: 26px;
+}
+footer{
+    margin-top:50px;
+}
+/* ------------____------____---------______---------_______-------__ */
+
+}
+
+/* tablet devices */
+@media only screen (max-width:992px){
+    .first-heading{
+        margin-left: 0px;
+    }
+.starting-influence{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 130px;
+    width: 100%;
+}
+.first-article{
+    margin-left: 50px;
+}
+/* _____________________________________ */
+.flexible-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    margin-left: 22px;
+    
+}
+.second-anchor a{
+   margin-left: 570px;
+}
+/* _____________________________________ */
+
+.tranformation-box {
+    width: 750px;
+    height: 380px;
+    margin-left: 0px;
+}
+.box-text-alignment p{
+    width:95% ;
+    padding-left: 20px;
+    
+}
+.box-text-alignment h1{
+    margin-left: 250px;
+}
+/* ______________________------------______________ */
+
+
+.tranformation-box {
+    width: 750px;
+    height: 380px;
+    margin-left: 22px;
+}
+.box-text-alignment p{
+    width: 95% ;
+}
+.box-text-alignment h1{
+    margin-left: 240px;
+}
+/* ---------------___________--------______-------______-------_*/
